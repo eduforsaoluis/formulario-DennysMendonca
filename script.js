@@ -7,9 +7,9 @@ event.preventDefault()
 
 const nome = document.getElementById("nome")
 const email = document.getElementById("email")
+const idade = document.getElementById("idade")
 const senha = document.getElementById("senha")
 const confirmarSenha = document.getElementById("confirmarSenha")
-const idade = document.getElementById("idade")
 
 let valido = true
 
