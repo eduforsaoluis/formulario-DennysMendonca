@@ -12,7 +12,7 @@ margin: 0;
 
 .container {
 
-background: white;
+background: gray;
 padding: 40px;
 border-radius: 10px;
 width: 350px;
@@ -23,7 +23,7 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 h1 {
 
 text-align: center;
-color: red;
+color: blue;
 margin-bottom: 20px;
 
 }
