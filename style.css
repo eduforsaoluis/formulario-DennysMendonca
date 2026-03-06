@@ -1,7 +1,7 @@
 body {
 
 font-family: Times, sans-serif;
-background: linear-gradient(120deg, pink, green);
+background: linear-gradient(120deg, #ff6ec7, #2ecc71);
 height: 100vh;
 display: flex;
 justify-content: center;
