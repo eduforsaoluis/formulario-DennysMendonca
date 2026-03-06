@@ -16,7 +16,7 @@ let valido = true
 mensagem.textContent = ""
 mensagem.className = ""
 
-const campos = [nome,email,senha,confirmarSenha,idade]
+const campos = [nome,email,idade, senha,confirmarSenha]
 
 campos.forEach(campo => campo.classList.remove("erro"))
 
