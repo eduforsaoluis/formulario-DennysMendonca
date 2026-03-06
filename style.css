@@ -53,7 +53,7 @@ border: 1px solid #ccc;
 input:focus {
 
 outline: none;
-border-color: #4facfe;
+border-color: green;
 
 }
 
@@ -84,7 +84,7 @@ border: 2px solid red;
 
 .sucesso {
 
-color: green;
+color: blue;
 margin-top: 10px;
 text-align: center;
 
