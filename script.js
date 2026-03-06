@@ -6,6 +6,7 @@ form.addEventListener("submit", function(event){
 event.preventDefault()
 
 const nome = document.getElementById("nome")
+const apelido = document.getElementById("apelido")
 const email = document.getElementById("email")
 const idade = document.getElementById("idade")
 const senha = document.getElementById("senha")
@@ -16,13 +17,20 @@ let valido = true
 mensagem.textContent = ""
 mensagem.className = ""
 
-const campos = [nome,email,idade, senha,confirmarSenha]
+const campos = [nome,apelido,email,idade,senha,confirmarSenha]
 
 campos.forEach(campo => campo.classList.remove("erro"))
 
 if(nome.value.length < 10){
 
 nome.classList.add("erro")
+valido = false
+
+}
+
+if(apelido.value.length < 3){
+
+apelido.classList.add("erro")
 valido = false
 
 }
