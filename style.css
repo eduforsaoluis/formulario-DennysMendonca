@@ -78,13 +78,13 @@ background: #2196f3;
 
 .erro {
 
-border: 2px solid red;
+border: 2px solid green;
 
 }
 
 .sucesso {
 
-color: green;
+color: blue;
 margin-top: 10px;
 text-align: center;
 
@@ -92,7 +92,7 @@ text-align: center;
 
 .erro-msg {
 
-color: red;
+color: green;
 margin-top: 10px;
 text-align: center;
 
