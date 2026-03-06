@@ -5,7 +5,7 @@ form.addEventListener("submit", function(event){
 
 event.preventDefault()
 
-const nome = document.getElementById("nome")
+const nome = document.getElementById("NOME")
 const email = document.getElementById("email")
 const senha = document.getElementById("senha")
 const confirmarSenha = document.getElementById("confirmarSenha")
