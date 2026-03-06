@@ -28,7 +28,7 @@ valido = false
 
 }
 
-/*if(apelido.value.length < 3){
+if(apelido.value.length < 3){
 
 apelido.classList.add("erro")
 valido = false
@@ -41,7 +41,6 @@ email.classList.add("erro")
 valido = false
 
 }
-*/
 if(senha.value.length < 6){
 
 senha.classList.add("erro")
@@ -55,14 +54,14 @@ confirmarSenha.classList.add("erro")
 valido = false
 
 }
-/*
+
 if(idade.value < 18){
 
 idade.classList.add("erro")
 valido = false
 
 }
-*/
+
 if(valido){
 
 mensagem.textContent = "Cadastro realizado com sucesso!"
