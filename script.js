@@ -58,7 +58,7 @@ valido = false
 
 if(data.value < 18){
 
-idade.classList.add("erro")
+data.classList.add("erro")
 valido = false
 
 }
