@@ -56,10 +56,16 @@ valido = false
 
 }
 
-if(data.value < 18){
+//if(data.value < 18){
 
-data.classList.add("erro")
-valido = false
+//data.classList.add("erro")
+//valido = false
+
+//}
+
+if(data.value === "") {
+  data.classList.add("erro")
+  valido = false
 
 }
 
