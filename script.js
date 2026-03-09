@@ -18,6 +18,18 @@ let valido = true
 mensagem.textContent = ""
 mensagem.className = ""
 
+//document.getElementById('data').addEventListener('input', function(e) {
+  //  let v = e.target.value;
+
+    //v = v.replace(/\D/g, "");
+
+    //if (v.length > 2) v = v.slice(0,2) + "/" + v.slice(2);
+    //if (v.length > 5) v = v.slice(0,5) + "/" + v.slice(5,9);
+
+    //e.target.value = v;
+//});
+
+  
 const campos = [nome,apelido,email,data,senha,confirmarSenha]
 
 campos.forEach(campo => campo.classList.remove("erro"))
