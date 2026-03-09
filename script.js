@@ -56,9 +56,9 @@ valido = false
 
 }
 
-//if(data.value < 18){
+//if(idade.value < 18){
 
-//data.classList.add("erro")
+//idade.classList.add("erro")
 //valido = false
 
 //}
