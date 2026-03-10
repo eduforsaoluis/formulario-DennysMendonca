@@ -1,7 +1,7 @@
 body {
 
 font-family: Times, sans-serif;
-background: linear-gradient(120deg, #6ea8ff, #2e85cc);
+background: linear-gradient(120deg, #839fc8, #0c2e49);
 height: 100vh;
 display: flex;
 justify-content: center;
@@ -23,7 +23,7 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 h1 {
 
 text-align: center;
-color: blue;
+color: rgba(0, 34, 255, 0.779);
 margin-bottom: 20px;
 
 }
@@ -63,7 +63,7 @@ button {
 margin-top: 20px;
 padding: 12px;
 border: none;
-background: yellow;
+background: rgba(255, 255, 0, 0.733);
 color: green;
 font-size: 16px;
 border-radius: 5px;
@@ -73,7 +73,7 @@ cursor: pointer;
 
 button:hover {
 
-background: orange;
+background: rgba(241, 170, 38, 0.82);
 
 }
 
@@ -85,7 +85,7 @@ border: 2px solid red;
 
 .sucesso {
 
-color: blue;
+color: rgb(83, 20, 242);
 margin-top: 10px;
 text-align: center;
 
